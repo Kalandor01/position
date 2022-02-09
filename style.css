@@ -1,62 +1,28 @@
-
-div, span {
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: justify;
+main, header, article, aside, nav {
     border: solid 1px black;
-    width: 500px;
+    padding: 5px;
 }
 
-.fixed {
-    position: fixed;
-    background-color: burlywood;
-    bottom: 20px;
-    right: 100px;
-    width: 100%;
-    z-index: 10;
-}
-
-.szoveg {
-    position: relative;/*html-ben elfoglalt helyéhez képest*/
-}
-
-.absolute {
-    top: 200px;
-    width: 50px;
-    z-index: 10;
-    background-color: brown;
-    position: absolute;/*eltolás attol amikor kiadtuk a position relativet*/
+main {
+    width: 80%;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
 }
 
-nav ul a {
+nav ul li a {
     text-decoration: none;
     color: black;
-    background-color: blue;
-    padding: 10px;
-    display: block;
-    margin: 5px;
 }
 
-nav>ul {
+article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
 }
 
-.legordulo {
-    position: relative;
-}
-
-.legordulo_elem {
-    display: none;
-    position: absolute;
-}
-
-.legordulo:hover .legordulo_elem {
-    display: block;
+article>img {
+    width: 100%;
+    margin: auto;
+    margin: 10px;
 }
