@@ -87,10 +87,21 @@ aside>img {
 .infopanel{
     position: absolute;
     width: 300px;
-    height: 100px;
+    height: 110px;
     background: white;
-    top: calc(50% - 50px);
+    top: calc(50% - 55px);
     left: calc(50% - 150px);
     border-radius: 10px;
-    
+
+}
+
+form{
+    position: relative;
+    top: 30px;
+}
+
+.gomb{
+    position: absolute;
+    right: 10px;
+    top: -20px;
 }
