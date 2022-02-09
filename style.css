@@ -9,11 +9,27 @@ main {
 
 nav ul {
     list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav ul li {
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    display: block;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+nav ul li a:hover {
+    color: brown;
 }
 
 article {
@@ -25,4 +41,8 @@ article>img {
     width: 100%;
     margin: auto;
     margin: 10px;
+}
+
+aside>img {
+
 }
