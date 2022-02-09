@@ -80,8 +80,21 @@ article>img {
     margin: 10px;
 }
 
-aside>img {
+.big_img>img {
     width: 100%;
+    display: none;
+}
+
+article>.img1:hover aside>.img1 {
+    display: block;
+}
+
+article>.img1:hover aside>.img1 {
+    display: block;
+}
+
+article>.img1:hover aside>.img1 {
+    display: block;
 }
 
 .infopanel{
