@@ -74,26 +74,29 @@ article {
     position: relative;
 }
 
-article>img {
+article img {
     width: 100%;
     margin: auto;
     margin: 10px;
+    border-radius: 5px;
 }
 
-.big_img>img {
+article>div>div {
+    position: absolute;
     width: 100%;
     display: none;
+    right: 0%;
 }
 
-article>.img1:hover aside>.img1 {
+article>.img_tarol:hover .img_div {
     display: block;
 }
 
-article>.img1:hover aside>.img1 {
+article>.img2:hover .img2_div {
     display: block;
 }
 
-article>.img1:hover aside>.img1 {
+article>.img3:hover .img3_div {
     display: block;
 }
 
