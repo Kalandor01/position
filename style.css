@@ -92,14 +92,6 @@ article>.img_tarol:hover .img_div {
     display: block;
 }
 
-article>.img2:hover .img2_div {
-    display: block;
-}
-
-article>.img3:hover .img3_div {
-    display: block;
-}
-
 .infopanel{
     position: absolute;
     width: 300px;
