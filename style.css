@@ -16,6 +16,9 @@ nav ul {
 nav ul li {
     background-color: rgb(54, 54, 54);
     border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -30,6 +33,36 @@ nav ul li:hover {
 
 nav ul li a:hover {
     color: brown;
+}
+
+.lenyil {
+    position: relative;
+}
+
+.al_m {
+    display: none;
+    position: absolute;
+    margin: auto;
+    width: 50%;
+}
+
+.al_m>li {
+    background-color: azure;
+    border: solid 1px gray;
+    margin: 0;
+    border-radius: 2px;
+}
+
+.al_m>li>a {
+    color: black;
+}
+
+.al_m>li>a:hover {
+    color: azure;
+}
+
+.lenyil:hover .al_m {
+    display: block;
 }
 
 article {
