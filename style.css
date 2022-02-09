@@ -1,0 +1,62 @@
+
+div, span {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: justify;
+    border: solid 1px black;
+    width: 500px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: burlywood;
+    bottom: 20px;
+    right: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+.szoveg {
+    position: relative;/*html-ben elfoglalt helyéhez képest*/
+}
+
+.absolute {
+    top: 200px;
+    width: 50px;
+    z-index: 10;
+    background-color: brown;
+    position: absolute;/*eltolás attol amikor kiadtuk a position relativet*/
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    padding: 10px;
+    display: block;
+    margin: 5px;
+}
+
+nav>ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.legordulo {
+    position: relative;
+}
+
+.legordulo_elem {
+    display: none;
+    position: absolute;
+}
+
+.legordulo:hover .legordulo_elem {
+    display: block;
+}
