@@ -71,6 +71,7 @@ nav ul li a:hover {
 article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
 }
 
 article>img {
@@ -83,13 +84,13 @@ aside>img {
 
 }
 
-.fixed{
-    position: fixed;
+.infopanel{
+    position: absolute;
     width: 300px;
     height: 100px;
     background: white;
-    top: 50%;
-    left: 50%;
+    top: calc(50% - 50px);
+    left: calc(50% - 150px);
     border-radius: 10px;
-    transform: translate(-50%, -50%);
+    
 }
